@@ -15,7 +15,7 @@ html {
 }
 .dropdown-activator {
   align-items: center;
-  background-color: inherit;
+  /* background-color: inherit; */
   border: 1px solid transparent;
   border-color: #ccc;
   font-size: 2rem;
@@ -37,7 +37,7 @@ html {
 
 
 .dropdown-itemList {
-  background-color: #ececec;
+  /* background-color: #ececec; */
   color: black;
   font-size: 2rem;
   display: none;
@@ -50,12 +50,16 @@ html {
 li {
     list-style: none;
     margin: 0;
+}   
 
     a, a:link {
+        background-color: #ececec;
+        margin-block: 0.2rem;
+        border-radius: 10px;
         display: block;
         padding: 0.5em;
     }
-}
+
 
 .dropdown-itemList.active {
     display: block;
