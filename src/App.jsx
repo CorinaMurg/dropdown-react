@@ -1,3 +1,7 @@
+//issues: link does not open in new tab
+// add trap to the dropdown
+//add skip link
+
 
 import Dropdown from "./Dropdown"
 import './App.css'
